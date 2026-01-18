@@ -24,6 +24,7 @@ It helps beginners understand how to control loop execution flow effectively.
 (Alternate scenario can be created using **Continue** to skip a value.)
 
 ---
+{10, 20, 30, 40, 50}
 
 ## 🛠️ Tools & Technologies
 - UiPath Studio
@@ -43,4 +44,60 @@ It helps beginners understand how to control loop execution flow effectively.
 
 ---
 
+(The loop stops when it reaches 30.)
+
+---
+10
+20
+
+## ▶️ Expected Output (Continue Example)
+If Continue is used for value `20`:
+10
+30
+40
+50
+
+
+(The loop stops when it reaches 30.)
+
+---
+
+## ▶️ Expected Output (Continue Example)
+If Continue is used for value `20`:
+
+
+
 ## ▶️ Expected Output (Break Example)
+
+---
+
+## 📘 Learning Outcomes
+- Difference between **Break** and **Continue**
+- How to control loop execution
+- How to avoid unnecessary iterations
+- Writing cleaner automation logic
+
+---
+
+## 🔍 Break vs Continue
+| Break | Continue |
+|------|----------|
+| Stops the loop completely | Skips current iteration |
+| Used to exit loops early | Used to ignore specific values |
+
+---
+
+## 👤 Author
+**Tummepalli Sivanagalakshman**
+
+---
+
+## 🚀 Next Enhancements
+- Combine Break & Continue in nested loops
+- Use logging instead of Message Box
+- Apply loop control with DataTables
+
+---
+
+## 📎 Notes
+This project is created for **learning and practice purposes** and is ideal for UiPath beginners.
